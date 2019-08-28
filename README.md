@@ -1,10 +1,10 @@
-# cs100-F2018-slides
+# cs100-F2019-slides
 
 This repository contains all of presentation slides for Computer Science 100
-Fall 2018. Each HTML file in this repository contains one "deck" of slides for a
+Fall 2019. Each HTML file in this repository contains one "deck" of slides for a
 module of this course. To learn more about the course in which these assignments
-were completed, please visit the [Computer Science 100 Fall 2018 GitHub
-Organization](https://github.com/Allegheny-Computer-Science-100-F2018). The
+were completed, please visit the [Computer Science 100 Fall 2019 GitHub
+Organization](https://github.com/Allegheny-Computer-Science-100-F2019). The
 source code of the slides uses
 [reveal.js](https://github.com/hakimel/reveal.js/) framework to control the
 display of each slide. I have developed a custom theme for the slides that
@@ -20,7 +20,7 @@ then acknowledge it in your own presentation slides?
 You can type the following command if you want to clone this repository:
 
 ```shell
-git clone https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-slides.git
+git clone https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-slides.git
 ```
 
 Please note that the presentation uses local fonts so that it can be displayed
