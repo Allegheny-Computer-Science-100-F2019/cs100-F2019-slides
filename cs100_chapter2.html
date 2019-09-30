@@ -207,35 +207,39 @@
           <h1><b class="orange">Hands-on practice throughout the semester!</b></h1>
         </section>
 
+        <section>
+          <h1><b class="orange">Schedule office hours if you have questions!</b></h1>
+        </section>
+
       </div>
 
-      <script src="lib/js/head.min.js"></script>
-      <script src="js/reveal.min.js"></script>
+    </div>
 
-      <script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
 
-        Reveal.initialize({
-          controls: true,
-          progress: true,
-          history: true,
-          center: true,
+    <script>
 
-          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-          transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/none/none
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
 
-          // Optional libraries used to extend on reveal.js
-          dependencies: [
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/none/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
           { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
           { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
-          ]
-        });
+        ]
+      });
 
-      </script>
-
-  </div>
+    </script>
 
   </body>
 
